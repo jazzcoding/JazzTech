@@ -14,78 +14,58 @@ import adobexd from "../../assets/image/logos/adobexd.png";
 const softwares = () => {
   return (
     <div className="z-20 bg-blue-50 border-y-[1px] h-max border-darkLight border-opacity-5">
-      <div className="px-5 flex justify-center items-center flex-wrap py-2 md:px-[5vw] md:gap-6">
-        <ul className="w-1/2 justify-around md:flex md:w-full ">
-          <li className="flex items-center justify-center">
-            <img
-              src={adalo}
-              alt=""
-              className=" float-left w-[100px] h-[100px] object-contain bg-cover"
-            />
+      <div className="px-5 flex justify-center items-center flex-wrap py-2 md:px-[5vw] md:gap-6 lg:flex-nowrap">
+        <ul className="flex flex-col justify-center items-center w-1/2 md:flex md:w-full md:flex-row md:justify-around">
+          <li className="flex items-center justify-center w-[100px] h-[100px]">
+            <img src={adalo} alt="" className=" float-left object-contain " />
           </li>
-          <li className="flex items-center justify-center">
-            <img
-              src={android}
-              alt=""
-              className=" float-left w-[100px] h-[100px] object-contain bg-cover"
-            />
+          <li className="flex items-center justify-center w-[100px] h-[100px]">
+            <img src={android} alt="" className=" float-left object-contain " />
           </li>
-          <li className="flex items-center justify-center">
-            <img
-              src={figma}
-              alt=""
-              className=" float-left w-[100px] h-[100px] object-contain bg-cover"
-            />
+          <li className="flex items-center justify-center w-[100px] h-[100px]">
+            <img src={figma} alt="" className=" float-left object-contain " />
           </li>
-          <li className="flex items-center justify-center">
+          <li className="flex items-center justify-center w-[100px] h-[100px]">
             <img
               src={firebase}
               alt=""
-              className=" float-left w-[100px] h-[100px] object-contain bg-cover"
+              className=" float-left object-contain "
             />
           </li>
-          <li className="flex items-center justify-center">
-            <img
-              src={react}
-              alt=""
-              className=" float-left w-[100px] h-[100px] object-contain bg-cover"
-            />
+          <li className="flex items-center justify-center w-[100px] h-[100px]">
+            <img src={react} alt="" className=" float-left object-contain " />
           </li>
         </ul>
-        <ul className="  w-1/2 justify-around md:flex md:w-full">
-          <li className="flex items-center justify-center">
-            <img
-              src={git}
-              alt=""
-              className=" float-left w-[100px] h-[100px] object-contain bg-cover"
-            />
+        <ul className="flex flex-col justify-center items-center  w-1/2 md:flex md:w-full md:flex-row md:justify-around">
+          <li className="flex items-center justify-center w-[100px] h-[100px]">
+            <img src={git} alt="" className=" float-left object-contain " />
           </li>
-          <li className="flex items-center justify-center">
+          <li className="flex items-center justify-center w-[100px] h-[100px]">
             <img
               src={photoshop}
               alt=""
-              className=" float-left w-[100px] h-[100px] object-contain bg-cover"
+              className=" float-left w-4/5 object-contain "
             />
           </li>
-          <li className="flex items-center justify-center">
+          <li className="flex items-center justify-center w-[100px] h-[100px]">
             <img
               src={wordpress}
               alt=""
-              className=" float-left w-[100px] h-[100px] object-contain bg-cover"
+              className=" float-left  w-4/5 object-contain "
             />
           </li>
-          <li className="flex items-center justify-center">
+          <li className="flex items-center justify-center w-[100px] h-[100px]">
             <img
               src={adobexd}
               alt=""
-              className=" float-left w-[75px] h-[75px] object-contain bg-cover"
+              className=" float-left w-3/5 h-auto object-contain"
             />
           </li>
-          <li className="flex items-center justify-center">
+          <li className="flex items-center justify-center w-[100px] h-[100px]">
             <img
               src={githubDark}
               alt=""
-              className=" float-left w-[75px] h-[75px] object-contain bg-cover"
+              className=" float-left w-3/5 h-auto object-contain"
             />
           </li>
         </ul>

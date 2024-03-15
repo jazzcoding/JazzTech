@@ -32,8 +32,8 @@ const hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center lg:justify-center lg:items-center">
-          <img src={Iphone} alt="" className="w-4/5 md:w-1/3 lg:w-5/12" />
+        <div className="py-[5vh] flex justify-center items-center lg:justify-center lg:items-center lg:pt-0">
+          <img src={Iphone} alt="" className="w-3/5 md:w-1/3 lg:w-5/12" />
         </div>
       </div>
     </>
