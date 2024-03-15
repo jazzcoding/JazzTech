@@ -7,7 +7,7 @@
 .background {
   position: absolute;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   top: 0;
   left: 0;
   background: #eff6ff;
@@ -24,7 +24,7 @@
   animation-duration: 32;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  opacity: 0.4;
+  opacity: 0.25;
 }
 
 .background span:nth-child(0) {

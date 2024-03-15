@@ -4,7 +4,7 @@ import "../../assets/css/background.css";
 const hero = () => {
   return (
     <>
-      <div className="relative  z-10 overflow-scroll bg-blue-50 w-screen h-screen flex-row px-5 justify-center items-center md:px-[5vw] lg:flex lg:justify-center lg:items-center">
+      <div className="relative z-10 overflow-hidden bg-blue-50 w-screen h-max flex-row px-5 justify-center items-center md:px-[5vw] lg:flex lg:justify-center lg:items-center lg:h-screen">
         <div className="background -z-10">
           <span className="-z-10"></span>
           <span className="-z-10"></span>
@@ -32,8 +32,8 @@ const hero = () => {
             </div>
           </div>
         </div>
-        <div className="pt-[10vh] flex justify-center items-center lg:justify-center lg:items-center">
-          <img src={Iphone} alt="" className="w-4/5 md:w-1/3 lg:w-1/2" />
+        <div className="flex justify-center items-center lg:justify-center lg:items-center">
+          <img src={Iphone} alt="" className="w-4/5 md:w-1/3 lg:w-5/12" />
         </div>
       </div>
     </>
