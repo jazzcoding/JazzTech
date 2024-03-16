@@ -23,12 +23,16 @@ const hero = () => {
             We are an international software development company merging the
             latest technology with creativity to optimize business processes.
           </p>
-          <div className="flex justify-start w-full self-start gap-10 z-10">
-            <div className="bg-primary py-3 px-8 rounded-md self-start">
-              <p className="font-inter font-medium text-white">Get Started</p>
+          <div className="flex justify-start w-full self-start gap-5 z-10 md:gap-8 lg:gap10">
+            <div className="border-2 border-primary bg-primary py-3 px-2 rounded-md self-start md:px-8">
+              <p className="font-inter font-medium text-white text-xs">
+                Get Started
+              </p>
             </div>
-            <div className="border-2 border-primary py-3 px-8 rounded-md self-start">
-              <p className="font-inter font-medium text-primary">Learn More</p>
+            <div className="border-2 border-primary bg-transparent py-3 px-2 rounded-md self-start md:px-8">
+              <p className="w-full font-inter font-medium text-primary text-xs">
+                Learn More
+              </p>
             </div>
           </div>
         </div>
