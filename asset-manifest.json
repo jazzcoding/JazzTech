@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/JazzTech/static/css/main.e233ffd7.css",
+    "main.js": "/JazzTech/static/js/main.7a170f64.js",
+    "static/js/453.67532562.chunk.js": "/JazzTech/static/js/453.67532562.chunk.js",
+    "static/media/iphone.png": "/JazzTech/static/media/iphone.7b8745e9c91b7409282d.png",
+    "static/media/adobexd.png": "/JazzTech/static/media/adobexd.5a026daf2ca1c0945003.png",
+    "static/media/wordpress.png": "/JazzTech/static/media/wordpress.677ef4544cab80a0c451.png",
+    "static/media/androidstudio.png": "/JazzTech/static/media/androidstudio.45c9e7df8162d9adb2e7.png",
+    "static/media/react.png": "/JazzTech/static/media/react.535fbaddcb76497426c2.png",
+    "static/media/firebase.png": "/JazzTech/static/media/firebase.22ade27d533c69e7204a.png",
+    "static/media/photoshop.png": "/JazzTech/static/media/photoshop.aa594ea67d2715ea4abe.png",
+    "static/media/figma.png": "/JazzTech/static/media/figma.1475cc523b5f4c537bd9.png",
+    "static/media/adalo.png": "/JazzTech/static/media/adalo.f354041f0beb1e3973f4.png",
+    "static/media/logo.svg": "/JazzTech/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/JazzTech/index.html",
+    "main.e233ffd7.css.map": "/JazzTech/static/css/main.e233ffd7.css.map",
+    "main.7a170f64.js.map": "/JazzTech/static/js/main.7a170f64.js.map",
+    "453.67532562.chunk.js.map": "/JazzTech/static/js/453.67532562.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e233ffd7.css",
+    "static/js/main.7a170f64.js"
+  ]
+}
