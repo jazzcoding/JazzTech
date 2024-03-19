@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = (props) => {
   return (
-    <div className="border-2 border-blue-200 h-full py-[2vh] rounded-xl flex flex-col gap-4 justify-center items-center w-3/4 lg:w-full">
+    <div className="transition-all duration-[.5s] hover:-translate-y-10 border-2 border-blue-200 h-full py-[2vh] rounded-xl flex flex-col gap-4 justify-center items-center w-3/4 lg:w-full">
       <img width="75" height="75" src={props.imgUrl} alt="web-design" />
       <h2 className="font-inter font-bold text-xl text-dark lg:text-2xl">
         {props.title}
@@ -49,7 +49,7 @@ const features = () => {
               desc="Ensure seamless access with our mobile-responsive solutions, offering a smooth user experience."
             />
           </div>
-          <div className="lg:col-start-2 flex justify-center items-center lg:col-span-2">
+          <div className="lg:col-start-2 flex justify-center items-center lg:col-span-2 ">
             <Card
               imgUrl="https://img.icons8.com/isometric/100/view-details.png"
               title="High-Quality Content"
