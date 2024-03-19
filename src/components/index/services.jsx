@@ -28,7 +28,7 @@ const services = () => {
           <h1 className="font-inter text-4xl text-dark font-bold ">
             Our Services
           </h1>
-          <hr className="w-1/4 my-6 bg-blue-50 h-[1px] border-0 border-t-[3px] border-tertiary" />
+          <hr className="w-1/4 my-6 bg-blue-50 h-[1px] border-0 border-t-[3px] border-tertiary lg:w-1/6" />
         </div>
       </div>
       <div className="flex flex-col gap-4 w-full h-4/5 md:w-full md:flex-row md:justify-between">
