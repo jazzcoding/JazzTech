@@ -26,7 +26,7 @@ const testimonials = () => {
   return (
     <div className=" bg-blue-100 px-[10vw] w-screen h-screen py-[10vh]">
       {/* LARGE DEVICES */}
-      <div className=" h-full gap-10 md:hidden sm:hidden lg:flex">
+      <div className=" h-full gap-10 hidden lg:flex">
         <div className="flex mt-[10vh] z-10 flex-col left w-1/2">
           <div className="relative flex flex-col justify-center items-start">
             <div className="absolute -top-10 -left-28 -z-10 left-">
@@ -79,7 +79,7 @@ const testimonials = () => {
       </div>
       {/* SMALL DEVICES */}
       <div>
-        <div className="left lg:hidden md:flex sm:flex">
+        <div className="left lg:hidden md:hidden sm:flex">
           <h1 className="font-inter font">Real Stories from Real Clients</h1>
           <p className="font-inter">Get Inspired by these stories.</p>
         </div>
