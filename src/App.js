@@ -6,6 +6,7 @@ import Software from "./components/index/softwares";
 import Features from "./components/index/features";
 import Testimonials from "./components/index/testimonials";
 import Services from "./components/index/services";
+import Footer from "./components/index/footer";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <Services />
       <Testimonials />
+      <Footer />
     </div>
   );
 }

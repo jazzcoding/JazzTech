@@ -1,91 +1,260 @@
 import React from "react";
 import quote from "../../assets/image/quote.png";
-import adalo from "../../assets/image/logos/adalo.png";
-import photoshop from "../../assets/image/logos/photoshop.png";
+import croplify from "../../assets/image/croplify.png";
+import croplifyPic from "../../assets/image/croplifyProfile.jpg";
 import react from "../../assets/image/logos/react.png";
-const Box = (props) => {
-  return (
-    <div className={props.classItems}>
-      <img src={props.image} alt="" width="100" height="75" />
-      <div className="flex mt-6 gap-4 items-start justify-start">
-        <img src={quote} alt="" width="25" height="25" />
-        <div className="flex flex-col items-start ">
-          <p className="text-left font-inter text-darkLight text-md">
-            {props.comment}
-          </p>
-          <p className="mt-5 font-inter font-medium text-dark">{props.name}</p>
-          <p className="font-inter text-darkLight text-md font-normal">
-            {props.app}
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-};
+
+const Box = (props) => {};
 const testimonials = () => {
   return (
-    <div className=" bg-blue-100 px-[10vw] w-screen h-screen py-[10vh]">
-      {/* LARGE DEVICES */}
-      <div className=" h-full gap-10 hidden lg:flex">
-        <div className="flex mt-[10vh] z-10 flex-col left w-1/2">
-          <div className="relative flex flex-col justify-center items-start">
-            <div className="absolute -top-10 -left-28 -z-10 left-">
-              <img src={quote} alt="" width="150" height="150" />
-            </div>
-            <h1 className="font-inter font-semibold text-5xl w-4/5 text-left text-dark">
-              Real Stories from Real Clients
-            </h1>
-            <p className="py-2 font-inter font-normal text-dark ">
-              Get Inspired by these stories.
+    <section className="py-12 bg-blue-50 sm:py-16 lg:py-20 ">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center">
+          <div className="text-center">
+            <p className="text-lg font-medium text-gray-600 font-inter">
+              # people have said how good Jazztech is
             </p>
+            <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-inter">
+              Our happy clients say about us
+            </h2>
           </div>
-          <div className=" self-end mt-[5vh]  w-3/4 h-full">
-            <Box
-              classItems=" p-7 bg-white w-full rounded-lg flex flex-col shadow-md"
-              image={adalo}
-              comment=" To quickly start my startup landing page design, I was looking for a
-            landing page UI Kit. Landify is one of the best landing page UI kit
-            I have come across. It’s so flexible, well organised and easily
-            editable."
-              name="Jizan Villafuerte"
-              app="Adalo"
-            />
-          </div>
-        </div>
-        <div className="right flex flex-col w-1/3">
-          <div className="flex flex-col gap-10 self-start w-full h-full">
-            <Box
-              classItems="p-7 bg-white w-full rounded-lg flex flex-col shadow-md"
-              image={photoshop}
-              comment=" To quickly start my startup landing page design, I was looking for a
-            landing page UI Kit. Landify is one of the best landing page UI kit
-            I have come across. It’s so flexible, well organised and easily
-            editable."
-              name="Jazz Capuli"
-              app="Adalo"
-            />
-            <Box
-              classItems="p-7 bg-white w-5/6 rounded-lg flex flex-col shadow-md"
-              image={react}
-              comment=" To quickly start my startup landing page design, I was looking for a
-            landing page UI Kit. Landify is one of the best landing page UI kit
-            I have come across. It’s so flexible, well organised and easily
-            editable."
-              name="Jizan Villafuerte"
-              app="Adalo"
-            />
+
+          <div className="relative mt-10 md:mt-24 md:order-2">
+            <div className="absolute -inset-x-1 inset-y-16 md:-inset-x-2 md:-inset-y-6">
+              <div
+                className="w-full h-full max-w-5xl mx-auto rounded-3xl opacity-30 blur-lg filter"
+                style={{
+                  background:
+                    "linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)",
+                }}
+              ></div>
+            </div>
+
+            <div className="relative grid max-w-lg grid-cols-1 gap-6 mx-auto md:max-w-none md:gap-0 md:grid-cols-3 shadow-xl md:rounded-xl">
+              <div className="flex flex-col overflow-hidden md:rounded-l-xl md:rounded-bl-xl">
+                <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
+                  <img src={croplify} alt="" height={75} width={75} />
+                  <div className="flex-1 mt-4">
+                    <div className="flex items-center">
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </div>
+
+                    <blockquote className="flex-1 mt-8">
+                      <p className="text-lg leading-relaxed text-gray-900 font-inter">
+                        “Wow, she is the best in the business. She is very down
+                        to earth and knows what she is doing and she give the
+                        best advise. I really enjoyed our meeting and I will
+                        continue to work with her.”
+                      </p>
+                    </blockquote>
+                  </div>
+
+                  <div className="flex items-center mt-8">
+                    <img
+                      className="flex-shrink-0 object-cover rounded-full w-11 h-11"
+                      src={croplifyPic}
+                      alt=""
+                    />
+                    <div className="ml-4">
+                      <p className="text-left font-bold text-gray-900 font-inter">
+                        Hardy Kumeso
+                      </p>
+                      <p className="mt-0.5 text-sm font-inter text-gray-600 text-left">
+                        Croplify
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col overflow-hidden border-x-[2px] border-darkLight border-opacity-10">
+                <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
+                  <img src={croplify} alt="" height={75} width={75} />
+                  <div className="flex-1 mt-4">
+                    <div className="flex items-center">
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </div>
+
+                    <blockquote className="flex-1 mt-8">
+                      <p className="text-lg leading-relaxed text-gray-900 font-inter">
+                        “Jazz I really like the work you've all done. I know
+                        that you do good work... You become an important part of
+                        our team and our app and We're very thankful to have you
+                        as friend and developer.”
+                      </p>
+                    </blockquote>
+                  </div>
+
+                  <div className="flex items-center mt-8">
+                    <img
+                      className="flex-shrink-0 object-cover rounded-full w-11 h-11"
+                      alt=""
+                    />
+                    <div className="ml-4">
+                      <p className="text-left font-bold text-gray-900 font-inter">
+                        Hamdi Krichi
+                      </p>
+                      <p className="mt-0.5 text-sm font-inter text-gray-600 text-left">
+                        Warnya
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col overflow-hidden md:rounded-r-xl md:rounded-br-xl">
+                <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
+                  <img src={croplify} alt="" height={75} width={75} />
+                  <div className="flex-1 mt-4">
+                    <div className="flex items-center">
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg
+                        className="w-5 h-5 text-[#FDB241]"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </div>
+
+                    <blockquote className="flex-1 mt-8">
+                      <p className="text-lg leading-relaxed text-gray-900 font-inter">
+                        "Lorem Ipsum”
+                      </p>
+                    </blockquote>
+                  </div>
+
+                  <div className="flex items-center mt-8">
+                    <img
+                      className="flex-shrink-0 object-cover rounded-full w-11 h-11"
+                      alt=""
+                    />
+                    <div className="ml-4">
+                      <p className="text-left font-bold text-gray-900 font-inter">
+                        Jizan Villafuerte
+                      </p>
+                      <p className="mt-0.5 text-sm font-inter text-gray-600 text-left">
+                        Web Developer
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      {/* SMALL DEVICES */}
-      <div>
-        <div className="left lg:hidden md:hidden sm:flex">
-          <h1 className="font-inter font">Real Stories from Real Clients</h1>
-          <p className="font-inter">Get Inspired by these stories.</p>
-        </div>
-        <div className="right"></div>
-      </div>
-    </div>
+    </section>
   );
 };
 

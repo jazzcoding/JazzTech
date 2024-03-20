@@ -2,7 +2,7 @@ import React from "react";
 import "../../assets/css/background.css";
 const Box = (props) => {
   return (
-    <div className="flex flex-col mt-4 items-start gap-2 w-1/4 py-5">
+    <div className="flex flex-col mt-4 items-start lg:gap-2 lg:w-1/4 lg:py-5">
       <img src={props.imgUrl} alt="" height="50" width="50" />
       <h1 className="font-inter text-left text-xl font-semibold text-dark">
         {props.title}
