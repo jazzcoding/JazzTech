@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/JazzTech/static/css/main.f94ae789.css",
-    "main.js": "/JazzTech/static/js/main.0cccfc8e.js",
+    "main.css": "/JazzTech/static/css/main.dea1e6e4.css",
+    "main.js": "/JazzTech/static/js/main.e751b531.js",
     "static/js/453.67532562.chunk.js": "/JazzTech/static/js/453.67532562.chunk.js",
+    "static/media/about2.png": "/JazzTech/static/media/about2.017e998a3307e80f2737.png",
     "static/media/iphone.png": "/JazzTech/static/media/iphone.7b8745e9c91b7409282d.png",
     "static/media/adobexd.png": "/JazzTech/static/media/adobexd.5a026daf2ca1c0945003.png",
+    "static/media/caploProfile.jpg": "/JazzTech/static/media/caploProfile.9d7eec07f7f31f34f2cf.jpg",
     "static/media/wordpress.png": "/JazzTech/static/media/wordpress.677ef4544cab80a0c451.png",
     "static/media/androidstudio.png": "/JazzTech/static/media/androidstudio.45c9e7df8162d9adb2e7.png",
+    "static/media/WarnyaProfile.jpg": "/JazzTech/static/media/WarnyaProfile.16e2af753f31b8a09d6d.jpg",
     "static/media/croplify.png": "/JazzTech/static/media/croplify.92cccd09f9c41a26f33f.png",
+    "static/media/logo-vertical.png": "/JazzTech/static/media/logo-vertical.56845cf091966a5a3be7.png",
     "static/media/react.png": "/JazzTech/static/media/react.535fbaddcb76497426c2.png",
+    "static/media/logo-horizontal.png": "/JazzTech/static/media/logo-horizontal.640a8e8bd87ab735c48d.png",
     "static/media/firebase.png": "/JazzTech/static/media/firebase.22ade27d533c69e7204a.png",
     "static/media/photoshop.png": "/JazzTech/static/media/photoshop.aa594ea67d2715ea4abe.png",
     "static/media/figma.png": "/JazzTech/static/media/figma.1475cc523b5f4c537bd9.png",
     "static/media/adalo.png": "/JazzTech/static/media/adalo.f354041f0beb1e3973f4.png",
     "static/media/logo.svg": "/JazzTech/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/JazzTech/index.html",
-    "main.f94ae789.css.map": "/JazzTech/static/css/main.f94ae789.css.map",
-    "main.0cccfc8e.js.map": "/JazzTech/static/js/main.0cccfc8e.js.map",
+    "main.dea1e6e4.css.map": "/JazzTech/static/css/main.dea1e6e4.css.map",
+    "main.e751b531.js.map": "/JazzTech/static/js/main.e751b531.js.map",
     "453.67532562.chunk.js.map": "/JazzTech/static/js/453.67532562.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f94ae789.css",
-    "static/js/main.0cccfc8e.js"
+    "static/css/main.dea1e6e4.css",
+    "static/js/main.e751b531.js"
   ]
 }
