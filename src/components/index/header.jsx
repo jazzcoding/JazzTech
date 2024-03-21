@@ -1,16 +1,14 @@
 import { useState } from "react";
-
+import logo from "../../assets/image/logos/logo-horizontal.png";
+import { Link } from "react-router-dom";
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
     <div className="flex items-center absolute top-0 left-0 justify-between border-dark z-50 py-8 px-5 w-screen md:px-[5vw] ">
-      <a href="/">
-        <img src="" alt="" />
-        <p className="font-inter text-xl font-black text-dark lg:text-3xl">
-          JazzTech
-        </p>
-      </a>
+      <Link to="/">
+        <img src={logo} alt="" height={225} width={225} />
+      </Link>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
@@ -41,28 +39,52 @@ export default function Header() {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
-              <li className="border-b border-dark my-8 uppercase">
-                <a href="/about">About</a>
+              <li className="duration-500 border-b border-dark my-8 uppercase hover:text-primary">
+                <Link to="/">Home</Link>
               </li>
-              <li className="border-b border-dark my-8 uppercase">
-                <a href="/portfolio">Portfolio</a>
+              <li className="duration-500 border-b border-dark my-8 uppercase hover:text-primary">
+                <Link to="/about">About</Link>
               </li>
-              <li className="border-b border-dark my-8 uppercase">
-                <a href="/contact">Contact</a>
+              <li className="duration-500 border-b border-dark my-8 uppercase hover:text-primary">
+                <Link to="/about">Works</Link>
+              </li>
+              <li className="duration-500 border-b border-dark my-8 uppercase hover:text-primary">
+                <Link to="/about">Careers</Link>
+              </li>
+              <li className="duration-500 border-b border-dark my-8 uppercase hover:text-primary">
+                <Link to="/about">FAQs</Link>
+              </li>
+              <li className="duration-500 border-b border-dark my-8 uppercase hover:text-primary">
+                <Link to="/about">Our Clients</Link>
+              </li>
+              <li className="duration-500 border-b border-dark my-8 uppercase hover:text-primary">
+                <Link to="/about">Hire Us</Link>
               </li>
             </ul>
           </div>
         </section>
 
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
-          <li>
-            <a href="/about">About</a>
+        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex font-inter font-medium text-md">
+          <li className="duration-500 hover:text-primary">
+            <Link to="/">Home</Link>
           </li>
-          <li>
-            <a href="/portfolio">Portfolio</a>
+          <li className="duration-500 hover:text-primary">
+            <Link to="/about">About</Link>
           </li>
-          <li>
-            <a href="/contact">Contact</a>
+          <li className="duration-500 hover:text-primary">
+            <Link to="/about">Works</Link>
+          </li>
+          <li className="duration-500 hover:text-primary">
+            <Link to="/about">Careers</Link>
+          </li>
+          <li className="duration-500 hover:text-primary">
+            <Link to="/about">FAQs</Link>
+          </li>
+          <li className="duration-500 hover:text-primary">
+            <Link to="/about">Our Clients</Link>
+          </li>
+          <li className="duration-500 hover:text-primary">
+            <Link to="/about">Hire Us</Link>
           </li>
         </ul>
       </nav>

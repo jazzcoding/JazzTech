@@ -8,7 +8,7 @@ module.exports = {
       },
       backgroundColor: {
         primary: "#3CA9FD",
-        seconary: "#71C1FF",
+        secondary: "#71C1FF",
         tertiary: "#97D2FF",
         light: "#CCE9FF",
         dark: "#313131",
@@ -16,7 +16,7 @@ module.exports = {
       },
       colors: {
         primary: "#3CA9FD",
-        seconary: "#71C1FF",
+        secondary: "#71C1FF",
         tertiary: "#97D2FF",
         light: "#CCE9FF",
         dark: "#313131",

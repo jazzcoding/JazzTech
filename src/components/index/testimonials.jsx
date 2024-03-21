@@ -3,7 +3,9 @@ import quote from "../../assets/image/quote.png";
 import croplify from "../../assets/image/croplify.png";
 import croplifyPic from "../../assets/image/croplifyProfile.jpg";
 import react from "../../assets/image/logos/react.png";
-
+import warnyaProfile from "../../assets/image/WarnyaProfile.jpg";
+import caploProfile from "../../assets/image/caploProfile.jpg";
+import caplo from "../../assets/image/caplo.jpeg";
 const Box = (props) => {};
 const testimonials = () => {
   return (
@@ -108,7 +110,7 @@ const testimonials = () => {
 
               <div className="flex flex-col overflow-hidden border-x-[2px] border-darkLight border-opacity-10">
                 <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
-                  <img src={croplify} alt="" height={75} width={75} />
+                  <img src={""} alt="" height={75} width={75} />
                   <div className="flex-1 mt-4">
                     <div className="flex items-center">
                       <svg
@@ -155,7 +157,7 @@ const testimonials = () => {
 
                     <blockquote className="flex-1 mt-8">
                       <p className="text-lg leading-relaxed text-gray-900 font-inter">
-                        “Jazz I really like the work you've all done. I know
+                        “Jazz, I really like the work you've all done. I know
                         that you do good work... You become an important part of
                         our team and our app and We're very thankful to have you
                         as friend and developer.”
@@ -166,6 +168,7 @@ const testimonials = () => {
                   <div className="flex items-center mt-8">
                     <img
                       className="flex-shrink-0 object-cover rounded-full w-11 h-11"
+                      src={warnyaProfile}
                       alt=""
                     />
                     <div className="ml-4">
@@ -182,7 +185,7 @@ const testimonials = () => {
 
               <div className="flex flex-col overflow-hidden md:rounded-r-xl md:rounded-br-xl">
                 <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
-                  <img src={croplify} alt="" height={75} width={75} />
+                  <img src={caplo} alt="" height={75} width={75} />
                   <div className="flex-1 mt-4">
                     <div className="flex items-center">
                       <svg
@@ -229,7 +232,11 @@ const testimonials = () => {
 
                     <blockquote className="flex-1 mt-8">
                       <p className="text-lg leading-relaxed text-gray-900 font-inter">
-                        "Lorem Ipsum”
+                        "Jazz restored my faith in mobile app developers - and
+                        WOW! she did it well. I had a vision for a mobile phone
+                        app and had spend a frustrating 4 months with a
+                        developer who essentially ripped me off. Jazz did the
+                        complete opposite”
                       </p>
                     </blockquote>
                   </div>
@@ -237,14 +244,15 @@ const testimonials = () => {
                   <div className="flex items-center mt-8">
                     <img
                       className="flex-shrink-0 object-cover rounded-full w-11 h-11"
+                      src={caploProfile}
                       alt=""
                     />
                     <div className="ml-4">
                       <p className="text-left font-bold text-gray-900 font-inter">
-                        Jizan Villafuerte
+                        Ian Denny
                       </p>
                       <p className="mt-0.5 text-sm font-inter text-gray-600 text-left">
-                        Web Developer
+                        Caplo
                       </p>
                     </div>
                   </div>

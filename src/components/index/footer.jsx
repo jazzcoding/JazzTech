@@ -1,12 +1,12 @@
 import React from "react";
-
+import logo from "../../assets/image/logos/logo-vertical.png";
 const footer = () => {
   return (
     <section class="py-10 w-screen bg-gray-50 sm:pt-16 lg:pt-24 ">
       <div class="px-4 mx-auto sm:px-6 lg:px-[5vw]">
         <div class="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
           <div class="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
-            <img class="w-auto h-9" src="" alt="JazzTech Logo Here" />
+            <img src={logo} height={100} width={100} />
 
             <p class="text-left leading-relaxed text-gray-600 mt-7">
               We are an international software development company merging the
