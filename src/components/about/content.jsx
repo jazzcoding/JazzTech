@@ -2,7 +2,7 @@ import React from "react";
 
 const content = () => {
   return (
-    <section class="bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24">
+    <section class="bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24 ">
       <div class="mx-auto max-w-full px-4 sm:px-6 lg:px-[5vw]">
         <div class="text-center">
           <p class="text-sm font-bold uppercase tracking-widest text-gray-700">
