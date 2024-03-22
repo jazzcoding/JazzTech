@@ -1,51 +1,32 @@
 import React from "react";
 import "../../assets/css/background.css";
 import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
+  WrenchScrewdriverIcon,
+  AcademicCapIcon,
+  WindowIcon,
+  PuzzlePieceIcon,
 } from "@heroicons/react/24/outline";
-const Box = (props) => {
-  return (
-    <div className="flex flex-col mt-4 items-start lg:gap-2 lg:w-1/4 lg:py-5">
-      <img src={props.imgUrl} alt="" height="50" width="50" />
-      <h1 className="font-inter text-left text-xl font-semibold text-dark">
-        {props.title}
-      </h1>
-      <p className="font-inter font-regular text-darkLight text-left">
-        {props.details}
-      </p>
 
-      <a href="">
-        <div className="flex gap-6 group">
-          <p className="text-primary">Know more</p>
-          <p className="text-primary group-hover:animate-slide ">&rarr;</p>
-        </div>
-      </a>
-    </div>
-  );
-};
 const features = [
   {
     name: "Custom App",
     description: "We will create a Mobile app based on your ideas!",
-    icon: CloudArrowUpIcon,
+    icon: WrenchScrewdriverIcon,
   },
   {
     name: "Expert Consultancy",
     description: "Want to get a feedback from an expert?",
-    icon: LockClosedIcon,
+    icon: AcademicCapIcon,
   },
   {
     name: "Custom Website",
     description: "We will create a website based on your designs and ideas!",
-    icon: ArrowPathIcon,
+    icon: WindowIcon,
   },
   {
     name: "Prototype Design",
     description: "Not a designer by nature?",
-    icon: FingerPrintIcon,
+    icon: PuzzlePieceIcon,
   },
 ];
 const services = () => {
@@ -54,13 +35,13 @@ const services = () => {
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-indigo-600">
+            <h2 className="text-base font-semibold leading-7 text-primary text-left md:text-center">
               Our Services
             </h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-left md:text-center">
               Everything you need to deploy your app
             </p>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-gray-600 text-left md:text-center">
               Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
               Suspendisse eget egestas a elementum pulvinar et feugiat blandit
               at. In mi viverra elit nunc.
@@ -71,7 +52,7 @@ const services = () => {
               {features.map((feature) => (
                 <div key={feature.name} className="relative pl-16 text-left">
                   <dt className="text-base font-semibold leading-7 text-gray-900">
-                    <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                    <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
                       <feature.icon
                         className="h-6 w-6 text-white"
                         aria-hidden="true"

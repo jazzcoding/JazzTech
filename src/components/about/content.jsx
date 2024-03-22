@@ -5,7 +5,7 @@ const content = () => {
     <>
       {" "}
       <section class="bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24 ">
-        <div class="mx-auto max-w-full px-4 sm:px-6 lg:px-[5vw]">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="text-center">
             <p class="text-sm font-bold uppercase tracking-widest text-gray-700">
               How we started
@@ -77,12 +77,11 @@ const content = () => {
                   The problem
                 </h3>
                 <h4 class="mt-2 text-left text-gray-700 text-sm">
-                  After hearing from our customers about how other companies
-                  charged them so much but provided small results, we felt
-                  empathetic and eager to assist. We understand how challenging
-                  it is to find a trustworthy software developer in a world
-                  flooded with AI. It's difficult to know whom to trust with our
-                  ideas.
+                  Understanding the struggle of finding reliable software
+                  developers in a saturated AI market, we empathize with
+                  customers' frustrations. We're committed to delivering
+                  impactful results at fair prices, prioritizing trust and
+                  quality.
                 </h4>
               </div>
             </li>
@@ -110,14 +109,12 @@ const content = () => {
                   The solution
                 </h3>
                 <h4 class="mt-2 text-left text-gray-700 text-sm">
-                  To address this issue, we've assembled a team of individuals
-                  who have studied and mastered their craft and are actively
-                  seeking employment. We primarily hire diligent students fresh
-                  from their universities to ensure that we stay current with
-                  the latest technologies. This approach allows us to assist
-                  both the community and our clients while creating a brighter
-                  future. Join us in our mission, and we'll help you bring your
-                  ideas to life.
+                  To tackle this, we've gathered a team of skilled individuals
+                  eager for work. We prioritize hiring recent university
+                  graduates, ensuring we're up-to-date with tech trends.
+                  Together, we aim to empower clients and the community, shaping
+                  a better future. Join us, and let's realize your ideas
+                  together.
                 </h4>
               </div>
             </li>
@@ -149,7 +146,7 @@ const content = () => {
         </div>
       </section>
       <div class="bg-white py-24 sm:py-32">
-        <div class="mx-auto grid max-w-full gap-x-8 gap-y-20  px-[5vw] xl:grid-cols-3">
+        <div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-8 xl:grid-cols-3">
           <div class="max-w-2xl">
             <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Meet our team

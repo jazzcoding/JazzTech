@@ -29,29 +29,23 @@ const testimonials = () => {
             <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
             <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
             <div className="mx-auto max-w-2xl lg:max-w-4xl">
-              <img
-                className="mx-auto h-12"
-                src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
-                alt=""
-              />
+              <img className="mx-auto h-12" src={caplo} alt="" />
               <figure className="mt-10">
                 <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
                   <p>
-                    “Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nemo expedita voluptas culpa sapiente alias molestiae.
-                    Numquam corrupti in laborum sed rerum et corporis.”
+                    “Jazz and her team give you an oasis of excellence among the
+                    big-promising, under-delivering app development options out
+                    there.”
                   </p>
                 </blockquote>
                 <figcaption className="mt-10">
                   <img
                     className="mx-auto h-10 w-10 rounded-full"
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src={caploProfile}
                     alt=""
                   />
                   <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                    <div className="font-semibold text-gray-900">
-                      Judith Black
-                    </div>
+                    <div className="font-semibold text-gray-900">Ian Denny</div>
                     <svg
                       viewBox="0 0 2 2"
                       width={3}
@@ -61,7 +55,7 @@ const testimonials = () => {
                     >
                       <circle cx={1} cy={1} r={1} />
                     </svg>
-                    <div className="text-gray-600">CEO of Workcation</div>
+                    <div className="text-gray-600">CEO of CAPLO</div>
                   </div>
                 </figcaption>
               </figure>
@@ -73,28 +67,24 @@ const testimonials = () => {
             <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
             <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
             <div className="mx-auto max-w-2xl lg:max-w-4xl">
-              <img
-                className="mx-auto h-12"
-                src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
-                alt=""
-              />
+              <img className="mx-auto h-12" src="" alt="" />
               <figure className="mt-10">
                 <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
                   <p>
-                    “Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nemo expedita voluptas culpa sapiente alias molestiae.
-                    Numquam corrupti in laborum sed rerum et corporis.”
+                    “Jazz, I really like the work you've all done. You become an
+                    important part of our team and our app and we're very
+                    thankful to have you as friend and developer.”
                   </p>
                 </blockquote>
                 <figcaption className="mt-10">
                   <img
                     className="mx-auto h-10 w-10 rounded-full"
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src={warnyaProfile}
                     alt=""
                   />
                   <div className="mt-4 flex items-center justify-center space-x-3 text-base">
                     <div className="font-semibold text-gray-900">
-                      Judith Black
+                      Hamdi Krichi
                     </div>
                     <svg
                       viewBox="0 0 2 2"
@@ -105,7 +95,7 @@ const testimonials = () => {
                     >
                       <circle cx={1} cy={1} r={1} />
                     </svg>
-                    <div className="text-gray-600">CEO of Workcation</div>
+                    <div className="text-gray-600">CEO of Warnya</div>
                   </div>
                 </figcaption>
               </figure>
@@ -117,28 +107,25 @@ const testimonials = () => {
             <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
             <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
             <div className="mx-auto max-w-2xl lg:max-w-4xl">
-              <img
-                className="mx-auto h-12"
-                src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
-                alt=""
-              />
+              <img className="mx-auto h-12" src={croplify} alt="" />
               <figure className="mt-10">
                 <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
                   <p>
-                    “Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nemo expedita voluptas culpa sapiente alias molestiae.
-                    Numquam corrupti in laborum sed rerum et corporis.”
+                    “Wow, she is the best in the business. She is very down to
+                    earth and knows what she's doing and she give the best
+                    advice. I really enjoyed our meeting and I will continue to
+                    work with her.”
                   </p>
                 </blockquote>
                 <figcaption className="mt-10">
                   <img
                     className="mx-auto h-10 w-10 rounded-full"
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src={croplifyPic}
                     alt=""
                   />
                   <div className="mt-4 flex items-center justify-center space-x-3 text-base">
                     <div className="font-semibold text-gray-900">
-                      Judith Black
+                      Hardy Kumeso
                     </div>
                     <svg
                       viewBox="0 0 2 2"
@@ -149,7 +136,7 @@ const testimonials = () => {
                     >
                       <circle cx={1} cy={1} r={1} />
                     </svg>
-                    <div className="text-gray-600">CEO of Workcation</div>
+                    <div className="text-gray-600">CEO of Croplify</div>
                   </div>
                 </figcaption>
               </figure>
