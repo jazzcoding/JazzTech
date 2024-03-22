@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JazzTech/static/css/main.dea1e6e4.css",
-    "main.js": "/JazzTech/static/js/main.e751b531.js",
+    "main.js": "/JazzTech/static/js/main.317a9de4.js",
     "static/js/453.67532562.chunk.js": "/JazzTech/static/js/453.67532562.chunk.js",
     "static/media/about2.png": "/JazzTech/static/media/about2.017e998a3307e80f2737.png",
     "static/media/iphone.png": "/JazzTech/static/media/iphone.7b8745e9c91b7409282d.png",
@@ -21,11 +21,11 @@
     "static/media/logo.svg": "/JazzTech/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/JazzTech/index.html",
     "main.dea1e6e4.css.map": "/JazzTech/static/css/main.dea1e6e4.css.map",
-    "main.e751b531.js.map": "/JazzTech/static/js/main.e751b531.js.map",
+    "main.317a9de4.js.map": "/JazzTech/static/js/main.317a9de4.js.map",
     "453.67532562.chunk.js.map": "/JazzTech/static/js/453.67532562.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dea1e6e4.css",
-    "static/js/main.e751b531.js"
+    "static/js/main.317a9de4.js"
   ]
 }
