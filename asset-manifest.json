@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JazzTech/static/css/main.6cba4985.css",
-    "main.js": "/JazzTech/static/js/main.e868489a.js",
+    "main.css": "/JazzTech/static/css/main.2a1f6b39.css",
+    "main.js": "/JazzTech/static/js/main.f5c792e6.js",
     "static/js/453.67532562.chunk.js": "/JazzTech/static/js/453.67532562.chunk.js",
     "static/media/about2.png": "/JazzTech/static/media/about2.017e998a3307e80f2737.png",
     "static/media/iphone.png": "/JazzTech/static/media/iphone.7b8745e9c91b7409282d.png",
@@ -14,6 +14,7 @@
     "static/media/logo-vertical.png": "/JazzTech/static/media/logo-vertical.56845cf091966a5a3be7.png",
     "static/media/react.png": "/JazzTech/static/media/react.535fbaddcb76497426c2.png",
     "static/media/logo-horizontal.png": "/JazzTech/static/media/logo-horizontal.640a8e8bd87ab735c48d.png",
+    "static/media/logo-horizontal-white.png": "/JazzTech/static/media/logo-horizontal-white.16d4b52a55ce37c43c85.png",
     "static/media/firebase.png": "/JazzTech/static/media/firebase.22ade27d533c69e7204a.png",
     "static/media/photoshop.png": "/JazzTech/static/media/photoshop.aa594ea67d2715ea4abe.png",
     "static/media/figma.png": "/JazzTech/static/media/figma.1475cc523b5f4c537bd9.png",
@@ -24,12 +25,12 @@
     "static/media/slick.ttf": "/JazzTech/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/JazzTech/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/JazzTech/index.html",
-    "main.6cba4985.css.map": "/JazzTech/static/css/main.6cba4985.css.map",
-    "main.e868489a.js.map": "/JazzTech/static/js/main.e868489a.js.map",
+    "main.2a1f6b39.css.map": "/JazzTech/static/css/main.2a1f6b39.css.map",
+    "main.f5c792e6.js.map": "/JazzTech/static/js/main.f5c792e6.js.map",
     "453.67532562.chunk.js.map": "/JazzTech/static/js/453.67532562.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cba4985.css",
-    "static/js/main.e868489a.js"
+    "static/css/main.2a1f6b39.css",
+    "static/js/main.f5c792e6.js"
   ]
 }
