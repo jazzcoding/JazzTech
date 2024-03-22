@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Homepage",
     element: <App />,
     errorElement: <div>404 not found</div>,
   },
