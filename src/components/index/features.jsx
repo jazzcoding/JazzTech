@@ -1,4 +1,30 @@
 import React from "react";
+import {
+  ComputerDesktopIcon,
+  NewspaperIcon,
+  DevicePhoneMobileIcon,
+  BoltIcon,
+} from "@heroicons/react/20/solid";
+const feat = [
+  {
+    name: "Intuitive User Interface (UI).",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+    icon: ComputerDesktopIcon,
+  },
+  {
+    name: "Fast Loading Times",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: BoltIcon,
+  },
+  {
+    name: "Mobile Responsiveness",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: DevicePhoneMobileIcon,
+  },
+];
 
 const Card = (props) => {
   return (
@@ -15,57 +41,51 @@ const Card = (props) => {
 };
 const features = () => {
   return (
-    <div className="flex flex-col justify-center pt-[7.5vh] h-full w-screen bg-blue-50 ">
-      <div className="flex justify-center items-center">
-        <h1 className="w-3/4 font-inter font-bold text-dark text-4xl text-center md:w-full md:text-5xl">
-          Tailor-made features
-        </h1>
-      </div>
-      <p className="font-inter text-dark text-center w-3/4 text-sm self-center mt-4 lg:w-3/5 md:text-lg">
-        Unlock the full potential of your software development endeavors with
-        our tailor-made features, designed to meet your unique project
-        requirements and drive innovation throughout the development lifecycle.
-      </p>
-      <div className="flex h-full py-[8vh] flex-wrap flex-col justify-around items-center md:flex-row md:px-[15vw]">
-        <div className="grid grid-cols-1 grid-rows-5 gap-y-[6vh] gap-x-6 lg:grid-cols-6 lg:grid-rows-2 ">
-          <div className="flex justify-center items-center lg:col-span-2">
-            <Card
-              imgUrl="https://img.icons8.com/isometric/100/web-design.png"
-              title="Intuitive User Interface (UI)"
-              desc="Enhance satisfaction with crafted interfaces, ensuring seamless navigation for improved experience."
-            />
-          </div>
-          <div className="flex justify-center items-center lg:col-span-2">
-            <Card
-              imgUrl="https://img.icons8.com/isometric/100/time.png"
-              title="Fast Loading Times"
-              desc="Ensure quick content access with our optimization services, reducing frustration and boosting retention."
-            />
-          </div>
-          <div className="flex justify-center items-center lg:col-span-2">
-            <Card
-              imgUrl="https://img.icons8.com/isometric/100/smartphone.png"
-              title="Mobile Responsiveness"
-              desc="Ensure seamless access with our mobile-responsive solutions, offering a smooth user experience."
-            />
-          </div>
-          <div className="lg:col-start-2 flex justify-center items-center lg:col-span-2 ">
-            <Card
-              imgUrl="https://img.icons8.com/isometric/100/view-details.png"
-              title="High-Quality Content"
-              desc="Capture audience with captivating content, enhancing engagement, visibility, and experience."
-            />
-          </div>
-          <div className="lg:col-start-4 flex justify-center items-center lg:col-span-2">
-            <Card
-              imgUrl="https://img.icons8.com/isometric/100/expand.png"
-              title="Scalability and Flexibility"
-              desc="Future-proof your website with scalable architecture, enabling seamless adaptation to evolving demands."
+    <>
+      <div className="overflow-hidden bg-white py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+            <div className="lg:pr-8 lg:pt-4">
+              <div className="lg:max-w-lg">
+                <h2 className="text-base font-semibold leading-7 text-indigo-600">
+                  Tailor-made Features
+                </h2>
+                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                  A better workflow
+                </p>
+                <p className="mt-6 text-lg text-justify leading-8 text-gray-600">
+                  Unlock the full potential of your software development
+                  endeavors with our tailor-made features, designed to meet your
+                  unique project requirements and drive innovation throughout
+                  the development lifecycle.
+                </p>
+                <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                  {feat.map((feat) => (
+                    <div key={feat.name} className="relative pl-9 text-left">
+                      <dt className="inline font-semibold text-gray-900">
+                        <feat.icon
+                          className="absolute left-1 top-1 h-5 w-5 text-indigo-600"
+                          aria-hidden="true"
+                        />
+                        {feat.name}
+                      </dt>{" "}
+                      <dd className="inline">{feat.description}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            </div>
+            <img
+              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+              alt="Product showcase here"
+              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+              width={2432}
+              height={1442}
             />
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

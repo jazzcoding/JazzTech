@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import About from "./pages/about";
+import Works from "./pages/works";
 import reportWebVitals from "./reportWebVitals";
 import {
   createBrowserRouter,
@@ -20,6 +21,10 @@ const router = createHashRouter([
   {
     path: "/about",
     element: <About />,
+  },
+  {
+    path: "/works",
+    element: <Works />,
   },
 ]);
 root.render(
