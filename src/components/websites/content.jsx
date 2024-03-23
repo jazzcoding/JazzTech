@@ -9,15 +9,15 @@ import caploScreen from "../../assets/image/Screenshots/caplo.png";
 import croplifyScreen from "../../assets/image/Screenshots/croplify.png";
 
 const content = () => {
-  const mobileScreen = [
+  const websiteScreen = [
     {
       app: "Caplo",
-      imgUrl: caploScreen,
+      imgUrl: "",
       description: "",
     },
     {
       app: "Croplify",
-      imgUrl: croplifyScreen,
+      imgUrl: "",
       description: "",
     },
     {
@@ -42,29 +42,30 @@ const content = () => {
             In mi viverra elit nunc.
           </p>
         </div>
-        <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
-          {mobileScreen.map((mobileScreen) => (
-            <div className="flex flex-col items-center gap-6">
-              <h1 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-4xl">
-                {mobileScreen.app}
-              </h1>
-              <div class="relative mx-6 border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] ">
-                <div class="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[72px] rounded-s-lg"></div>
-                <div class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
-                <div class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
-                <div class="h-[64px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
-                <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800">
+        <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
+          {websiteScreen.map((websiteScreen) => (
+            <div className="w-full h-full">
+              <div class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
+                <div class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800">
                   <img
-                    src={mobileScreen.imgUrl}
-                    class="dark:hidden w-[272px] h-[572px]"
-                    alt=""
+                    src={websiteScreen.imgUrl}
+                    class="dark:hidden h-[156px] md:h-[278px] w-full rounded-xl"
+                    alt={websiteScreen.app}
                   ></img>
                   <img
-                    src={mobileScreen.imgUrl}
-                    class="hidden dark:block w-[272px] h-[572px]"
-                    alt=""
+                    src={websiteScreen.imgUrl}
+                    class="hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg"
+                    alt={websiteScreen.app}
                   ></img>
                 </div>
+              </div>
+              <div class="relative mx-auto bg-gray-900 dark:bg-gray-700 rounded-b-xl rounded-t-sm h-[17px] max-w-[351px] md:h-[21px] md:max-w-[597px]">
+                <div class="absolute left-1/2 top-0 -translate-x-1/2 rounded-b-xl w-[56px] h-[5px] md:w-[96px] md:h-[8px] bg-gray-800"></div>
+              </div>
+              <div className="flex items-center justify-center w-ful">
+                <h1 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-4xl">
+                  {websiteScreen.app}
+                </h1>
               </div>
             </div>
           ))}

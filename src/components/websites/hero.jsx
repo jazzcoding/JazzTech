@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:pb-[10vh] ">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Mobile Applications
+              Websites
             </h1>
           </div>
         </div>
