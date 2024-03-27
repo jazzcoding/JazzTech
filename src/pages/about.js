@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { InfinitySpin } from "react-loader-spinner";
 import Header from "../components/index/header";
 import Hero from "../components/about/hero";
 import Content from "../components/about/content";
 import Footer from "../components/index/footer";
-const about = () => {
+const About = () => {
   return (
     <div>
       <Header />
@@ -14,4 +15,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

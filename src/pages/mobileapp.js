@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { InfinitySpin } from "react-loader-spinner";
 import Header from "../components/index/header";
 import Footer from "../components/index/footer";
 import Hero from "../components/mobileapps/hero";
 import Content from "../components/mobileapps/content";
-const mobileapp = () => {
+const Mobileapp = () => {
   return (
     <div>
       <Header />
@@ -14,4 +15,4 @@ const mobileapp = () => {
   );
 };
 
-export default mobileapp;
+export default Mobileapp;

@@ -1,9 +1,9 @@
 import { React, useState } from "react";
-import logo from "../../assets/image/logos/logo-horizontal.png";
+import logo from "../../assets/image/logos-software/logo-horizontal.png";
 import { Link } from "react-router-dom";
 import { Dialog, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Logo from "../../assets/image/logos/logo-horizontal.png";
+import Logo from "../../assets/image/logos-software/logo-horizontal.png";
 import { Fragment } from "react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 function classNames(...classes) {
@@ -12,7 +12,7 @@ function classNames(...classes) {
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="absolute inset-x-0 top-0 z-50 mx-auto max-w-7xl px-6 lg:px-8">
+    <header className="absolute inset-x-0 top-0 z-40 mx-auto max-w-7xl px-6 lg:px-8">
       <nav
         className="flex items-center justify-between p-6 "
         aria-label="Global"
@@ -125,15 +125,12 @@ export default function Header() {
             Careers
           </Link>
           <Link
-            to="/about"
+            to="/clients"
             className="font-semibold text-sm hover:text-primary"
           >
             Our Clients
           </Link>
-          <Link
-            to="/about"
-            className="font-semibold text-sm hover:text-primary"
-          >
+          <Link to="/faqs" className="font-semibold text-sm hover:text-primary">
             FAQs
           </Link>
         </div>

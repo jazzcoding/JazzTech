@@ -7,6 +7,8 @@ import MobileApps from "./pages/mobileapp";
 import Webiste from "./pages/website";
 import Design from "./pages/design";
 import Career from "./pages/career";
+import Clients from "./pages/clients";
+import Faqs from "./pages/faqs";
 import reportWebVitals from "./reportWebVitals";
 import {
   createBrowserRouter,
@@ -40,6 +42,14 @@ const router = createHashRouter([
   {
     path: "/career",
     element: <Career />,
+  },
+  {
+    path: "/clients",
+    element: <Clients />,
+  },
+  {
+    path: "/faqs",
+    element: <Faqs />,
   },
 ]);
 root.render(

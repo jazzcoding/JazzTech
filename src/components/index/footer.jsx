@@ -1,27 +1,28 @@
 import React from "react";
-import logo from "../../assets/image/logos/logo-vertical.png";
+import logo from "../../assets/image/logos-software/logo-vertical.png";
+import { Link } from "react-router-dom";
 const footer = () => {
   return (
-    <section class="py-10 w-screen bg-gray-50 sm:pt-16 lg:pt-24 ">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
-          <div class="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
+    <section className="py-10 w-screen bg-gray-50 sm:pt-16 lg:pt-24 ">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
+          <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
             <img src={logo} height={100} width={100} />
 
-            <p class="text-left leading-relaxed text-gray-600 mt-7">
+            <p className="text-left leading-relaxed text-gray-600 mt-7">
               We are an international software development company merging the
               latest technology with creativity to optimize business processes.
             </p>
 
-            <ul class="flex items-center space-x-3 mt-9">
+            <ul className="flex items-center space-x-3 mt-9">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
                 >
                   <svg
-                    class="w-4 h-4"
+                    className="w-4 h-4"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -35,10 +36,10 @@ const footer = () => {
                 <a
                   href="https://www.facebook.com/jazztechsolutions"
                   title=""
-                  class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
                 >
                   <svg
-                    class="w-4 h-4"
+                    className="w-4 h-4"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -52,10 +53,10 @@ const footer = () => {
                 <a
                   href="https://www.instagram.com/jazztechsolutions/"
                   title=""
-                  class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
                 >
                   <svg
-                    class="w-4 h-4"
+                    className="w-4 h-4"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -71,10 +72,10 @@ const footer = () => {
                 <a
                   href="https://github.com/jazzcoding"
                   title=""
-                  class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
                 >
                   <svg
-                    class="w-4 h-4"
+                    className="w-4 h-4"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -91,101 +92,77 @@ const footer = () => {
           </div>
 
           <div>
-            <p class="text-sm text-left font-semibold tracking-widest text-gray-400 uppercase">
+            <p className="text-sm text-left font-semibold tracking-widest text-gray-400 uppercase">
               Company
             </p>
 
-            <ul class="mt-6 space-y-4">
+            <ul className="mt-6 space-y-4">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/about"
                   title=""
-                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
                   About{" "}
-                </a>
+                </Link>
               </li>
-
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/mobileapps"
                   title=""
-                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Features{" "}
-                </a>
+                  Mobile Applications{" "}
+                </Link>
               </li>
-
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/website"
                   title=""
-                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Works{" "}
-                </a>
+                  Websites{" "}
+                </Link>
               </li>
-
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/design"
                   title=""
-                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Career{" "}
-                </a>
+                  Designs{" "}
+                </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <p class="text-sm text-left font-semibold tracking-widest text-transparent uppercase select-none">
+            <p className="text-sm text-left font-semibold tracking-widest text-transparent uppercase select-none">
               Help
             </p>
 
-            <ul class="mt-6 space-y-4">
+            <ul className="mt-6 space-y-4">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/career"
                   title=""
-                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Designs{" "}
-                </a>
+                  Career{" "}
+                </Link>
               </li>
 
               <li>
                 <a
+                  target="_blank"
                   href="#"
                   title=""
-                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
-                >
-                  {" "}
-                  Mobile Apps{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  title=""
-                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
-                >
-                  {" "}
-                  Websites{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  title=""
-                  class="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
                   Buy me a coffee{" "}
@@ -194,14 +171,14 @@ const footer = () => {
             </ul>
           </div>
 
-          <div class="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
-            <p class="text-sm text-left font-semibold tracking-widest text-gray-400 uppercase">
+          <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
+            <p className="text-sm text-left font-semibold tracking-widest text-gray-400 uppercase">
               Subscribe to newsletter
             </p>
 
-            <form action="#" method="POST" class="mt-6 flex flex-col">
+            <form action="#" method="POST" className="mt-6 flex flex-col">
               <div>
-                <label for="email" class="sr-only">
+                <label for="email" className="sr-only">
                   Email
                 </label>
                 <input
@@ -209,13 +186,13 @@ const footer = () => {
                   name="email"
                   id="email"
                   placeholder="Enter your email"
-                  class="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-tertiary caret-tertiary"
+                  className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-tertiary caret-tertiary"
                 />
               </div>
 
               <button
                 type="submit"
-                class="inline-flex w-1/2 items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-primary rounded-md hover:bg-tertiary focus:bg-tertiary"
+                className="inline-flex w-1/2 items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-primary rounded-md hover:bg-tertiary focus:bg-tertiary"
               >
                 Subscribe
               </button>
@@ -223,9 +200,9 @@ const footer = () => {
           </div>
         </div>
 
-        <hr class="mt-16 mb-10 border-gray-200" />
+        <hr className="mt-16 mb-10 border-gray-200" />
 
-        <p class="text-sm text-center text-gray-600">
+        <p className="text-sm text-center text-gray-600">
           © Copyright 2024, All Rights Reserved by JazzTech
         </p>
       </div>

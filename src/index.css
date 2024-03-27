@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-
+@layer components {
+  .disable-blur {
+    image-rendering: -webkit-optimize-contrast;
+  }
+}
 * {
   padding: 0;
   margin: 0;

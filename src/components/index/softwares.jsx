@@ -1,21 +1,21 @@
 import React from "react";
 
-import adalo from "../../assets/image/logos/adalo.png";
-import android from "../../assets/image/logos/androidstudio.png";
-import figma from "../../assets/image/logos/figma.png";
-import firebase from "../../assets/image/logos/firebase.png";
-import githubDark from "../../assets/image/logos/github-dark.png";
-import githubLight from "../../assets/image/logos/github-light.png";
-import git from "../../assets/image/logos/git.png";
-import photoshop from "../../assets/image/logos/photoshop.png";
-import react from "../../assets/image/logos/react.png";
-import wordpress from "../../assets/image/logos/wordpress.png";
-import adobexd from "../../assets/image/logos/adobexd.png";
+import adalo from "../../assets/image/logos-software/adalo.png";
+import android from "../../assets/image/logos-software/androidstudio.png";
+import figma from "../../assets/image/logos-software/figma.png";
+import firebase from "../../assets/image/logos-software/firebase.png";
+import githubDark from "../../assets/image/logos-software/github-dark.png";
+import githubLight from "../../assets/image/logos-software/github-light.png";
+import git from "../../assets/image/logos-software/git.png";
+import photoshop from "../../assets/image/logos-software/photoshop.png";
+import react from "../../assets/image/logos-software/react.png";
+import wordpress from "../../assets/image/logos-software/wordpress.png";
+import adobexd from "../../assets/image/logos-software/adobexd.png";
 import { motion } from "framer-motion";
 const softwares = () => {
   return (
     <div className="z-20 bg-blue-white  h-max  lg:[mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
-      <div class="relative flex overflow-x-hidden">
+      <div className="relative flex overflow-x-hidden">
         <div className="px-5 w-full flex justify-center items-center flex-wrap py-2 md:px-[5vw] md:gap-6 lg:flex-nowrap lg:inline-flex lg:w-full lg:animate-marquee-infinite lg:py-0 lg:animate-marquee lg:whitespace-nowrap lg:px-0 lg:gap-0">
           <ul className="flex flex-col justify-center items-center w-1/2 md:flex md:w-full md:flex-row md:justify-around ">
             <li className="flex items-center justify-center w-[100px] h-[100px]">

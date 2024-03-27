@@ -2,7 +2,7 @@ import React from "react";
 import quote from "../../assets/image/quote.png";
 import croplify from "../../assets/image/croplify.png";
 import croplifyPic from "../../assets/image/croplifyProfile.jpg";
-import react from "../../assets/image/logos/react.png";
+import react from "../../assets/image/logos-software/react.png";
 import warnyaProfile from "../../assets/image/WarnyaProfile.jpg";
 import caploProfile from "../../assets/image/caploProfile.jpg";
 import caplo from "../../assets/image/caplo.jpeg";
