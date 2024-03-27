@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JazzTech/static/css/main.a04b7702.css",
-    "main.js": "/JazzTech/static/js/main.dc47804b.js",
+    "main.js": "/JazzTech/static/js/main.5e3f0a72.js",
     "static/js/453.ea891efc.chunk.js": "/JazzTech/static/js/453.ea891efc.chunk.js",
     "static/media/7.jpg": "/JazzTech/static/media/7.9876e18c045f12ab6c63.jpg",
     "static/media/4.jpg": "/JazzTech/static/media/4.e47894280f927fd78a38.jpg",
@@ -35,11 +35,11 @@
     "static/media/slick.woff": "/JazzTech/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/JazzTech/index.html",
     "main.a04b7702.css.map": "/JazzTech/static/css/main.a04b7702.css.map",
-    "main.dc47804b.js.map": "/JazzTech/static/js/main.dc47804b.js.map",
+    "main.5e3f0a72.js.map": "/JazzTech/static/js/main.5e3f0a72.js.map",
     "453.ea891efc.chunk.js.map": "/JazzTech/static/js/453.ea891efc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a04b7702.css",
-    "static/js/main.dc47804b.js"
+    "static/js/main.5e3f0a72.js"
   ]
 }
