@@ -20,19 +20,27 @@ const ThemeSwitcher = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
   return (
-    <button onClick={toggleTheme} className="z-[1000] rounded-md">
-      {theme === "light" ? (
-        <SunIcon
-          className="h-6 w-6 text-darkBG group-hover:text-indigo-600"
-          aria-hidden="true"
-        />
-      ) : (
-        <MoonIcon
-          className="h-[1.25rem] w-[1.25rem] text-lightBG group-hover:text-indigo-600"
-          aria-hidden="true"
-        />
-      )}
-    </button>
+    <div className="flex gap-4" onClick={toggleTheme}>
+      <button className="z-[1000] rounded-md">
+        {theme === "light" ? (
+          <SunIcon
+            className="h-6 w-6 text-darkBG group-hover:text-indigo-600"
+            aria-hidden="true"
+          />
+        ) : (
+          <MoonIcon
+            className="h-[1.25rem] w-[1.25rem] text-lightBG group-hover:text-indigo-600"
+            aria-hidden="true"
+          />
+        )}
+      </button>
+      <h1 className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 lg:hidden dark:text-darkLight dark:hover:bg-dark dark:hover:text-darkBG dark:hidden">
+        Dark mode
+      </h1>
+      <h1 className="hidden -mx-3 rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 lg:hidden dark:text-darkLight dark:hover:bg-dark dark:hover:text-darkBG dark:block dark:lg:hidden">
+        Light mode
+      </h1>
+    </div>
   );
 };
 
