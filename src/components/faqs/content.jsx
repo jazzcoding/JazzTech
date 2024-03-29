@@ -3,7 +3,7 @@ import React from "react";
 const Content = () => {
   return (
     <div>
-      <section class="bg-white dark:bg-gray-900">
+      <section class="bg-white dark:bg-darkBG relative">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Frequently asked questions
@@ -11,7 +11,7 @@ const Content = () => {
           <div class="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
             <div>
               <div class="mb-10">
-                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-lightBG">
                   <svg
                     class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
@@ -26,13 +26,13 @@ const Content = () => {
                   </svg>
                   Question
                 </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam in imperdiet mauris, id sollicitudin erat.
                 </p>
               </div>
               <div class="mb-10">
-                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-lightBG">
                   <svg
                     class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
@@ -47,13 +47,13 @@ const Content = () => {
                   </svg>
                   Question
                 </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam in imperdiet mauris, id sollicitudin erat.
                 </p>
               </div>
               <div class="mb-10">
-                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-lightBG">
                   <svg
                     class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
@@ -68,11 +68,11 @@ const Content = () => {
                   </svg>
                   Question
                 </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam in imperdiet mauris, id sollicitudin erat.
                 </p>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Feel free to{" "}
                   <a
                     href="#"
@@ -86,7 +86,7 @@ const Content = () => {
                 </p>
               </div>
               <div class="mb-10">
-                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-lightBG">
                   <svg
                     class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
@@ -101,11 +101,11 @@ const Content = () => {
                   </svg>
                   Question
                 </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam in imperdiet mauris, id sollicitudin erat.
                 </p>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Find out more information by{" "}
                   <a
                     href="#"
@@ -119,7 +119,7 @@ const Content = () => {
             </div>
             <div>
               <div class="mb-10">
-                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-lightBG">
                   <svg
                     class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
@@ -134,7 +134,7 @@ const Content = () => {
                   </svg>
                   Question
                 </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Lorem Ipsum{" "}
                   <a
                     href="#"
@@ -147,7 +147,7 @@ const Content = () => {
                 </p>
               </div>
               <div class="mb-10">
-                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-lightBG">
                   <svg
                     class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
@@ -162,7 +162,7 @@ const Content = () => {
                   </svg>
                   Question
                 </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Lorem{" "}
                   <a
                     href="#"
@@ -173,13 +173,13 @@ const Content = () => {
                   sit amet, consectetur adipiscing elit. Aliquam in imperdiet
                   mauris, id sollicitudin erat.
                 </p>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   You can use this version for any purposes, because it is
                   open-source under the MIT license.
                 </p>
               </div>
               <div class="mb-10">
-                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-lightBG">
                   <svg
                     class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
@@ -194,16 +194,16 @@ const Content = () => {
                   </svg>
                   Question
                 </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam in imperdiet mauris, id sollicitudin erat.
                 </p>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div>
               <div class="mb-10">
-                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
+                <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-lightBG">
                   <svg
                     class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400"
                     fill="currentColor"
@@ -218,14 +218,14 @@ const Content = () => {
                   </svg>
                   Question
                 </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aliquam in imperdiet mauris, id sollicitudin erat.
                 </p>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <p class="text-gray-500 dark:text-gray-400">
+                <p class="text-gray-500 dark:text-darkLight">
                   Find out more information by{" "}
                   <a
                     href="#"

@@ -66,24 +66,26 @@ const Content = () => {
   return (
     <div>
       {features.map((feature) => (
-        <div className="bg-white">
-          <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+        <div className="bg-white dark:bg-darkBG dark:border-y-[.1rem] dark:border-dark">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8 ">
             <div>
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-lightBG">
                 {feature.name}
               </h2>
-              <p className="mt-4 text-gray-500">{feature.description}</p>
+              <p className="mt-4 text-gray-500 dark:text-darkLight">
+                {feature.description}
+              </p>
 
               <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                 {features[0].capab.map((capabs) => (
                   <div
                     key={feature.name}
-                    className="border-t border-gray-200 pt-4"
+                    className="border-t border-gray-200 pt-4 dark:border-darkLight"
                   >
-                    <dt className="font-medium text-gray-900">
+                    <dt className="font-medium text-gray-900 dark:text-darkLight">
                       {capabs.capabName}
                     </dt>
-                    <dd className="mt-2 text-sm text-gray-500">
+                    <dd className="mt-2 text-sm text-gray-500 dark:text-darkLight/80">
                       {capabs.capabDesc}
                     </dd>
                   </div>

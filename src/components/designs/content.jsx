@@ -32,14 +32,14 @@ const Content = () => {
   ];
   return (
     <>
-      <div className="relative overflow-hidden bg-white">
+      <div className="relative overflow-hidden bg-white dark:bg-darkBG">
         <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl dark:text-lightBG">
                 Prototype Design
               </h1>
-              <p className="mt-4 text-xl text-gray-500">
+              <p className="mt-4 text-xl text-gray-500 dark:darkLight">
                 A premier destination for web and mobile application prototype
                 design. Transforming concepts into captivating digital
                 experiences with innovative solutions.
@@ -116,25 +116,28 @@ const Content = () => {
 
                 <button
                   onClick={handleClick}
-                  className="inline-block rounded-md border border-transparent bg-primary px-8 py-3 text-center font-medium text-white hover:bg-secondary"
+                  className="hidden rounded-md border border-transparent bg-primary px-8 py-3 text-center font-medium text-white hover:bg-secondary md:inline-block dark:bg-darkLight dark:text-dark dark:hover:bg-dark dark:hover:text-lightBG"
                 >
-                  See our deisigns
+                  See our designs
                 </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="bg-blue-50" ref={ref}>
+      <div
+        className="bg-blue-50 dark:bg-darkBG dark:border-y-[.1rem] dark:border-dark"
+        ref={ref}
+      >
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-primary text-left md:text-center">
+            <h2 className="text-base font-semibold leading-7 text-primary text-left md:text-center dark:text-darkLight">
               Lorem Ipsum
             </h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-left md:text-center">
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-left md:text-center dark:text-lightBG">
               Lorem Ipsul dolor
             </p>
-            <p className="mt-6 text-lg leading-8 text-gray-600 text-left md:text-center">
+            <p className="mt-6 text-lg leading-8 text-gray-600 text-left md:text-center dark:text-darkLight">
               Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
               Suspendisse eget egestas a elementum pulvinar et feugiat blandit
               at. In mi viverra elit nunc.
@@ -161,7 +164,7 @@ const Content = () => {
                   <div className="absolute left-1/2 top-0 -translate-x-1/2 rounded-b-xl w-[56px] h-[5px] md:w-[96px] md:h-[8px] bg-gray-800"></div>
                 </div>
                 <div className="flex items-center justify-center w-ful">
-                  <h1 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-4xl">
+                  <h1 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-4xl dark:text-lightBG">
                     {design.app}
                   </h1>
                 </div>

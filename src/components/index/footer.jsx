@@ -3,13 +3,13 @@ import logo from "../../assets/image/logos-software/logo-vertical.png";
 import { Link } from "react-router-dom";
 const footer = () => {
   return (
-    <section className="py-10 w-screen bg-gray-50 sm:pt-16 lg:pt-24 ">
+    <section className="py-10 w-screen bg-gray-50 sm:pt-16 lg:pt-24 dark:bg-darkBG dark:border-y-[.1rem] dark:border-dark">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
             <img src={logo} height={100} width={100} />
 
-            <p className="text-left leading-relaxed text-gray-600 mt-7">
+            <p className="text-left leading-relaxed text-gray-600 mt-7 dark:text-darkLight">
               We are an international software development company merging the
               latest technology with creativity to optimize business processes.
             </p>
@@ -19,7 +19,7 @@ const footer = () => {
                 <a
                   href="#"
                   title=""
-                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
                   <svg
                     className="w-4 h-4"
@@ -36,7 +36,7 @@ const footer = () => {
                 <a
                   href="https://www.facebook.com/jazztechsolutions"
                   title=""
-                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
                   <svg
                     className="w-4 h-4"
@@ -53,7 +53,7 @@ const footer = () => {
                 <a
                   href="https://www.instagram.com/jazztechsolutions/"
                   title=""
-                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
                   <svg
                     className="w-4 h-4"
@@ -72,7 +72,7 @@ const footer = () => {
                 <a
                   href="https://github.com/jazzcoding"
                   title=""
-                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600"
+                  className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
                   <svg
                     className="w-4 h-4"
@@ -92,7 +92,7 @@ const footer = () => {
           </div>
 
           <div>
-            <p className="text-sm text-left font-semibold tracking-widest text-gray-400 uppercase">
+            <p className="text-sm text-left font-semibold tracking-widest text-gray-400 uppercase dark:text-lightBG">
               Company
             </p>
 
@@ -101,7 +101,7 @@ const footer = () => {
                 <Link
                   to="/about"
                   title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  className="flex text-base text-black transition-all duration-200 hover:text-primary focus:text-primary dark:text-darkLight dark:hover:text-dark"
                 >
                   {" "}
                   About{" "}
@@ -111,7 +111,7 @@ const footer = () => {
                 <Link
                   to="/mobileapps"
                   title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  className="flex text-base text-black transition-all duration-200 hover:text-primary focus:text-primary dark:text-darkLight dark:hover:text-dark"
                 >
                   {" "}
                   Mobile Applications{" "}
@@ -121,7 +121,7 @@ const footer = () => {
                 <Link
                   to="/website"
                   title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  className="flex text-base text-black transition-all duration-200 hover:text-primary focus:text-primary dark:text-darkLight dark:hover:text-dark"
                 >
                   {" "}
                   Websites{" "}
@@ -131,7 +131,7 @@ const footer = () => {
                 <Link
                   to="/design"
                   title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  className="flex text-base text-black transition-all duration-200 hover:text-primary focus:text-primary dark:text-darkLight dark:hover:text-dark"
                 >
                   {" "}
                   Designs{" "}
@@ -150,7 +150,7 @@ const footer = () => {
                 <Link
                   to="/career"
                   title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  className="flex text-base text-black transition-all duration-200 hover:text-primary focus:text-primary dark:text-darkLight dark:hover:text-dark"
                 >
                   {" "}
                   Career{" "}
@@ -162,7 +162,7 @@ const footer = () => {
                   target="_blank"
                   href="#"
                   title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  className="flex text-base text-black transition-all duration-200 hover:text-primary focus:text-primary dark:text-darkLight dark:hover:text-dark"
                 >
                   {" "}
                   Buy me a coffee{" "}
@@ -172,7 +172,7 @@ const footer = () => {
           </div>
 
           <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
-            <p className="text-sm text-left font-semibold tracking-widest text-gray-400 uppercase">
+            <p className="text-sm text-left font-semibold tracking-widest text-gray-400 uppercase dark:text-lightBG">
               Subscribe to newsletter
             </p>
 
@@ -186,13 +186,13 @@ const footer = () => {
                   name="email"
                   id="email"
                   placeholder="Enter your email"
-                  className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-tertiary caret-tertiary"
+                  className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-tertiary caret-tertiary dark:bg-darkLight dark:ring-1 dark:border-0 dark:focus:border-0 dark:ring-lightBG/5 dark:caret-lightBG dark:placeholder-darkBG"
                 />
               </div>
 
               <button
                 type="submit"
-                className="inline-flex w-1/2 items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-primary rounded-md hover:bg-tertiary focus:bg-tertiary"
+                className="inline-flex w-1/2 items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-primary rounded-md hover:bg-tertiary focus:bg-tertiary dark:bg-darkLight dark:text-darkBG dark:hover:bg-dark dark:hover:text-darkLight"
               >
                 Subscribe
               </button>
@@ -200,9 +200,9 @@ const footer = () => {
           </div>
         </div>
 
-        <hr className="mt-16 mb-10 border-gray-200" />
+        <hr className="mt-16 mb-10 border-gray-200 dark:ring-1 dark:ring-lightBG/5" />
 
-        <p className="text-sm text-center text-gray-600">
+        <p className="text-sm text-center text-gray-600 dark:text-darkLight">
           © Copyright 2024, All Rights Reserved by JazzTech
         </p>
       </div>

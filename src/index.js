@@ -10,18 +10,15 @@ import Career from "./pages/career";
 import Clients from "./pages/clients";
 import Faqs from "./pages/faqs";
 import reportWebVitals from "./reportWebVitals";
-import {
-  createBrowserRouter,
-  createHashRouter,
-  RouterProvider,
-} from "react-router-dom";
+import NotFound from "./pages/notfound";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const router = createHashRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <div>404 not found</div>,
+    errorElement: <NotFound />,
   },
   {
     path: "/about",

@@ -4,29 +4,29 @@ const content = () => {
   return (
     <>
       {" "}
-      <section className="bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24 ">
+      <section className="relative bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24 dark:bg-darkBG">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <p className="text-sm font-bold uppercase tracking-widest text-gray-700">
+            <p className="text-sm font-bold uppercase tracking-widest text-gray-700 dark:text-darkLight">
               How we started
             </p>
-            <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
+            <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-lightBG">
               Our story
             </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8">
+            <p className="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8 dark:text-darkLight">
               Why would you choose JazzTech?
             </p>
           </div>
           <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-full lg:grid-cols-4">
             <li className="flex-start group relative flex lg:flex-col">
               <span
-                className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
+                className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)] dark:bg-dark"
                 aria-hidden="true"
               ></span>
-              <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900">
+              <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900 dark:bg-dark dark:border-0 dark:group-hover:text-lightBG dark:group-hover:bg-darkLight">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 text-gray-600 group-hover:text-white"
+                  className="h-5 w-5 text-gray-600 group-hover:text-white dark:text-lightBG"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -39,10 +39,10 @@ const content = () => {
                 </svg>
               </div>
               <div className="ml-6 lg:ml-0 lg:mt-10">
-                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500 dark:text-lightBG">
                   What, When and Where
                 </h3>
-                <h4 className="mt-2 text-left text-gray-700 text-sm">
+                <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
                   Jazztech Software Development Services is a software
                   development company founded in the Philippines in October
                   2020. Our team consists of talented and experienced software
@@ -53,14 +53,14 @@ const content = () => {
             </li>
             <li className="flex-start group relative flex lg:flex-col">
               <span
-                className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
+                className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)] dark:bg-dark"
                 aria-hidden="true"
               ></span>
-              <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900">
+              <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900 dark:bg-dark dark:border-0 dark:group-hover:text-lightBG dark:group-hover:bg-darkLight">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
-                  className="h-5 w-5 text-gray-600 group-hover:text-white"
+                  className="h-5 w-5 text-gray-600 group-hover:text-white dark:text-lightBG"
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="1"
@@ -73,10 +73,10 @@ const content = () => {
                 </svg>
               </div>
               <div className="ml-6 lg:ml-0 lg:mt-10">
-                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500 dark:text-lightBG">
                   The problem
                 </h3>
-                <h4 className="mt-2 text-left text-gray-700 text-sm">
+                <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
                   Understanding the struggle of finding reliable software
                   developers in a saturated AI market, we empathize with
                   customers' frustrations. We're committed to delivering
@@ -87,15 +87,14 @@ const content = () => {
             </li>
             <li className="flex-start group relative flex lg:flex-col">
               <span
-                className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
+                className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)] dark:bg-dark"
                 aria-hidden="true"
               ></span>
-              <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900">
+              <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900 dark:bg-dark dark:border-0 dark:group-hover:text-lightBG dark:group-hover:bg-darkLight">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
                   fill="none"
-                  className="h-5 w-5 text-gray-600 group-hover:text-white"
+                  className="h-5 w-5 text-gray-600 group-hover:text-white dark:text-lightBG"
                   stroke="currentColor"
                   strokeWidth="1"
                   strokeLinecap="round"
@@ -105,10 +104,10 @@ const content = () => {
                 </svg>
               </div>
               <div className="ml-6 lg:ml-0 lg:mt-10">
-                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500 dark:text-lightBG">
                   The solution
                 </h3>
-                <h4 className="mt-2 text-left text-gray-700 text-sm">
+                <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
                   To tackle this, we've gathered a team of skilled individuals
                   eager for work. We prioritize hiring recent university
                   graduates, ensuring we're up-to-date with tech trends.
@@ -119,12 +118,12 @@ const content = () => {
               </div>
             </li>
             <li className="flex-start group relative flex lg:flex-col">
-              <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900">
+              <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900 dark:bg-dark dark:border-0 dark:group-hover:text-lightBG dark:group-hover:bg-darkLight">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 text-gray-600 group-hover:text-white"
-                  viewBox="0 0 24 24"
                   fill="none"
+                  className="h-5 w-5 text-gray-600 group-hover:text-white dark:text-lightBG"
+                  viewBox="0 0 24 24"
                   stroke="currentColor"
                   strokeWidth="1"
                   strokeLinecap="round"
@@ -134,10 +133,10 @@ const content = () => {
                 </svg>
               </div>
               <div className="ml-6 lg:ml-0 lg:mt-10">
-                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
+                <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500 dark:text-lightBG">
                   Present
                 </h3>
-                <h4 className="mt-2 text-left text-gray-700 text-sm">
+                <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
                   We currently have # clients all across the globe!
                 </h4>
               </div>
@@ -145,13 +144,13 @@ const content = () => {
           </ul>
         </div>
       </section>
-      <div className="bg-white py-24 sm:py-32">
+      <div className="bg-white py-24 sm:py-32 dark:bg-darkBG dark:border-y-[.1rem] dark:border-dark">
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-8 xl:grid-cols-3">
           <div className="max-w-2xl">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-lightBG">
               Meet our team
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-darkLight">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in
               risus nec nunc cursus ornare. Proin molestie libero a auctor
               euismod.
@@ -169,10 +168,10 @@ const content = () => {
                   alt=""
                 ></img>
                 <div>
-                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
+                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-lightBG">
                     Jazz
                   </h3>
-                  <p className="text-sm font-semibold leading-6 text-primary">
+                  <p className="text-sm font-semibold leading-6 text-primary dark:text-darkLight">
                     CEO / Software Developer
                   </p>
                 </div>
@@ -186,10 +185,10 @@ const content = () => {
                   alt=""
                 ></img>
                 <div>
-                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
+                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-lightBG">
                     Jizan Villafuerte
                   </h3>
-                  <p className="text-sm font-semibold leading-6 text-primary">
+                  <p className="text-sm font-semibold leading-6 text-primary dark:text-darkLight">
                     Assistant Software Developer
                   </p>
                 </div>

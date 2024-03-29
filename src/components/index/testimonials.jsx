@@ -22,16 +22,16 @@ const testimonials = () => {
     autoplaySpeed: 5000,
   };
   return (
-    <div>
+    <div className="dark:bg-darkBG">
       <Slider {...settings}>
         <div>
-          <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
-            <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
-            <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
+          <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8 dark:bg-darkBG">
+            <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] dark:bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),black)] opacity-20" />
+            <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center dark:bg-darkBG dark:shadow-darkBG dark:ring-lightBG/5" />
             <div className="mx-auto max-w-2xl lg:max-w-4xl">
               <img className="mx-auto h-12" src={caplo} alt="" />
               <figure className="mt-10">
-                <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+                <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9 dark:text-lightBG">
                   <p>
                     “Jazz and her team give you an oasis of excellence among the
                     big-promising, under-delivering app development options out
@@ -45,17 +45,21 @@ const testimonials = () => {
                     alt=""
                   />
                   <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                    <div className="font-semibold text-gray-900">Ian Denny</div>
+                    <div className="font-semibold text-gray-900 dark:text-lightBG">
+                      Ian Denny
+                    </div>
                     <svg
                       viewBox="0 0 2 2"
                       width={3}
                       height={3}
                       aria-hidden="true"
-                      className="fill-gray-900"
+                      className="fill-gray-900 dark:fill-lightBG"
                     >
                       <circle cx={1} cy={1} r={1} />
                     </svg>
-                    <div className="text-gray-600">CEO of CAPLO</div>
+                    <div className="text-gray-600 dark:text-lightBG">
+                      CEO of CAPLO
+                    </div>
                   </div>
                 </figcaption>
               </figure>
@@ -63,13 +67,13 @@ const testimonials = () => {
           </section>
         </div>
         <div>
-          <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
-            <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
-            <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
+          <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8 dark:bg-darkBG">
+            <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] dark:bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),black)] opacity-20" />
+            <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center dark:bg-darkBG dark:shadow-darkBG dark:ring-lightBG/5" />
             <div className="mx-auto max-w-2xl lg:max-w-4xl">
               <img className="mx-auto h-12" src="" alt="" />
               <figure className="mt-10">
-                <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+                <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9 dark:text-lightBG">
                   <p>
                     “Jazz, I really like the work you've all done. You become an
                     important part of our team and our app and we're very
@@ -83,7 +87,7 @@ const testimonials = () => {
                     alt=""
                   />
                   <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                    <div className="font-semibold text-gray-900">
+                    <div className="font-semibold text-gray-900 dark:text-lightBG">
                       Hamdi Krichi
                     </div>
                     <svg
@@ -91,11 +95,13 @@ const testimonials = () => {
                       width={3}
                       height={3}
                       aria-hidden="true"
-                      className="fill-gray-900"
+                      className="fill-gray-900 dark:fill-lightBG"
                     >
                       <circle cx={1} cy={1} r={1} />
                     </svg>
-                    <div className="text-gray-600">CEO of Warnya</div>
+                    <div className="text-gray-600 dark:text-lightBG">
+                      CEO of Warnya
+                    </div>
                   </div>
                 </figcaption>
               </figure>
@@ -103,18 +109,17 @@ const testimonials = () => {
           </section>
         </div>
         <div>
-          <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
-            <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
-            <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
+          <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8 dark:bg-darkBG">
+            <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] dark:bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),black)] opacity-20" />
+            <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center dark:bg-darkBG dark:shadow-darkBG dark:ring-lightBG/5" />
             <div className="mx-auto max-w-2xl lg:max-w-4xl">
               <img className="mx-auto h-12" src={croplify} alt="" />
               <figure className="mt-10">
-                <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+                <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9 dark:text-lightBG">
                   <p>
-                    “Wow, she is the best in the business. She is very down to
-                    earth and knows what she's doing and she give the best
-                    advice. I really enjoyed our meeting and I will continue to
-                    work with her.”
+                    “Wow, she is the best in the business. She knows what she's
+                    doing and she give the best advice. I really enjoyed our
+                    meeting and I will continue to work with her.”
                   </p>
                 </blockquote>
                 <figcaption className="mt-10">
@@ -124,7 +129,7 @@ const testimonials = () => {
                     alt=""
                   />
                   <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                    <div className="font-semibold text-gray-900">
+                    <div className="font-semibold text-gray-900 dark:text-lightBG">
                       Hardy Kumeso
                     </div>
                     <svg
@@ -132,11 +137,13 @@ const testimonials = () => {
                       width={3}
                       height={3}
                       aria-hidden="true"
-                      className="fill-gray-900"
+                      className="fill-gray-900 dark:fill-lightBG"
                     >
                       <circle cx={1} cy={1} r={1} />
                     </svg>
-                    <div className="text-gray-600">CEO of Croplify</div>
+                    <div className="text-gray-600 dark:text-lightBG">
+                      CEO of Croplify
+                    </div>
                   </div>
                 </figcaption>
               </figure>

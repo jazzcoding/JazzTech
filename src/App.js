@@ -14,6 +14,7 @@ function App() {
     setTimeout(function () {
       var loader = document.getElementById("loader");
       loader.style.opacity = 0;
+      loader.style.zIndex = 0;
       setTimeout(function () {
         loader.style.display = "none";
       }, 500);
@@ -22,13 +23,13 @@ function App() {
   return (
     <div className="App">
       <div
-        className="absolute opacity-100 top-0 left-0 flex justify-center items-center w-screen h-screen bg-blue-50 z-50 transition-opacity duration-500"
+        className="absolute opacity-100 top-0 left-0 flex justify-center items-center w-screen h-screen bg-blue-50 z-[1000] transition-opacity duration-500 dark:bg-darkBG dark:text-darkLight"
         id="loader"
       >
         <InfinitySpin
           visible={true}
           width="200"
-          color="#3CA9FD"
+          color="currentColor"
           ariaLabel="infinity-spin-loading"
         />
       </div>
