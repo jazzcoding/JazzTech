@@ -16,3 +16,6 @@
 body {
   overflow-x: hidden;
 }
+body * {
+  @apply transition-colors duration-500;
+}

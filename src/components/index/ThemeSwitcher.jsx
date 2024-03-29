@@ -1,43 +1,34 @@
 import React, { useState, useEffect } from "react";
 import { MoonIcon, SunIcon } from "@heroicons/react/24/outline";
 const ThemeSwitcher = () => {
-  const [darkMode, setDarkMode] = useState(false);
-
-  useEffect(() => {
-    const isDarkMode =
-      localStorage.theme === "dark" ||
+  const [theme, setTheme] = useState(
+    localStorage.theme === "dark" ||
       (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches);
-    setDarkMode(isDarkMode);
-  }, []);
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ? "dark"
+      : "light"
+  );
 
+  // Effect to update the theme when the component mounts
   useEffect(() => {
-    document.documentElement.classList.toggle("dark", darkMode);
-    localStorage.setItem("darkMode", darkMode);
-  }, [darkMode]);
+    document.documentElement.classList.toggle("dark", theme === "dark");
+    localStorage.theme = theme;
+  }, [theme]);
 
-  const toggleDarkMode = () => {
-    setDarkMode((prevMode) => !prevMode);
+  // Function to toggle the theme
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
   };
-
-  // Whenever the user explicitly chooses light mode
-  localStorage.theme = "light";
-
-  // Whenever the user explicitly chooses dark mode
-  localStorage.theme = "dark";
-
-  // Whenever the user explicitly chooses to respect the OS preference
-  localStorage.removeItem("theme");
   return (
-    <button onClick={toggleDarkMode} className="z-[1000] rounded-md text-black">
-      {darkMode ? (
-        <MoonIcon
-          className="h-6 w-6 text-lightBG group-hover:text-indigo-600"
+    <button onClick={toggleTheme} className="z-[1000] rounded-md">
+      {theme === "light" ? (
+        <SunIcon
+          className="h-6 w-6 text-darkBG group-hover:text-indigo-600"
           aria-hidden="true"
         />
       ) : (
-        <SunIcon
-          className="h-6 w-6 text-dark group-hover:text-indigo-600"
+        <MoonIcon
+          className="h-[1.25rem] w-[1.25rem] text-lightBG group-hover:text-indigo-600"
           aria-hidden="true"
         />
       )}
