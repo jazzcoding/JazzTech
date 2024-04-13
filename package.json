@@ -1,7 +1,7 @@
 {
   "name": "jazztech",
   "version": "0.1.0",
-  "homepage": "https://ZanjiDiaz.github.io/",
+  "homepage": "https://ZanjiDiaz.github.io/JazzTech",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.18",
