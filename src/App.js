@@ -9,6 +9,7 @@ import Services from "./components/index/services";
 import Footer from "./components/index/footer";
 import React, { useState, useEffect } from "react";
 import { InfinitySpin } from "react-loader-spinner";
+import { Helmet } from "react-helmet-async";
 function App() {
   useEffect(() => {
     setTimeout(function () {
@@ -19,6 +20,20 @@ function App() {
         loader.style.display = "none";
       }, 500);
     }, 1000);
+  }, []);
+  useEffect(() => {
+    const script = document.createElement("script");
+
+    script.src =
+      "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1229134782043168";
+    script.async = true;
+    script.crossOrigin = "anonymous";
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
   }, []);
   return (
     <div className="App">
